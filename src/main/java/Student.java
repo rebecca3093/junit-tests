@@ -23,7 +23,6 @@ public class Student {
         this.grades.add(grade);
     }
 
-    // returns the average of the students grades
     public double getGradeAverage(){
         double result = 0;
         for (int grade : this.getGrades()) {
@@ -34,6 +33,14 @@ public class Student {
 
     public ArrayList<Integer> getGrades(){
         return this.grades;
+    }
+
+    public void updateGrade(){
+
+    }
+
+    public void deleteGrade(){
+
     }
 
 }
