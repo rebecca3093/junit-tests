@@ -1,3 +1,5 @@
+import jdk.internal.icu.impl.NormalizerImpl;
+
 import java.util.ArrayList;
 
 public class Student {
@@ -35,11 +37,12 @@ public class Student {
         return this.grades;
     }
 
-    public void updateGrade(){
-
+    public void updateGrade(int grades){
+    return this.updateGrade([].grades);
     }
 
     public void deleteGrade(){
+    return this.deleteGrade(grades);
 
     }
 
